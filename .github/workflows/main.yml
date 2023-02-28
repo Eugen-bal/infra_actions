@@ -54,7 +54,7 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           push: true
-          tags: eugen382/infra_a:latest
+          tags: eugen382/infra_action:latest
 
   deploy:
     runs-on: ubuntu-latest
